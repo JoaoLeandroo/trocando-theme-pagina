@@ -60,7 +60,8 @@ header button img {
 
 main {
     margin: 15px auto;
-    width: 80%;
+    max-width: 600px;
+    width: 95%;
     background-color: var(--secundaryYellow);
     border-radius: 12px;
     padding: 10px;
