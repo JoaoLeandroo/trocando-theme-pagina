@@ -7,6 +7,7 @@ const footer = document.querySelector("footer")
 const h1 = document.querySelector(".h1")
 
 moon.addEventListener("click", () => {
+    document.title = 'Theme - Dark'
     document.body.style.background = 'var(--primaryBlack)'
     document.body.style.color = 'var(--primaryGreen)'
     header.style.background = 'var(--secundaryBlack)'
@@ -19,6 +20,7 @@ moon.addEventListener("click", () => {
 })
 
 sun.addEventListener("click", () => {
+    document.title = 'Theme - Light'
     document.body.style.background = 'var(--primaryWhite)'
     document.body.style.color = 'var(--secundaryBlack)'
     header.style.background = 'var(--secundaryYellow)'
